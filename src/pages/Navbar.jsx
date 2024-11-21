@@ -25,9 +25,9 @@ const Navbar = () => {
   return (
       <div className='fixed top-0 left-0 w-screen h-14 z-50 dark:text-text-dark flex justify-between items-center px-3 sm:px-10 pr-6  '>
             <h1 className="navLogo text-2xl sm:text-4xl italic font-bold "onClick={()=>{navigate(0)}} >
-            <span>u</span><span>d</span><span>a</span><span>y</span>
+            <span>v</span><span>i</span><span>r</span><span>e</span><span>n</span><span>d</span><span>r</span><span>a</span>
           </h1>
-          <div className="navlinks text-sm sm:text-base flex gap-3 sm:gap-5 font-medium">
+          <div className="navlinks text-xs sm:text-base flex gap-3 sm:gap-5 font-medium">
             <p className='select-none' onClick={()=>{navigate(0)}}>HOME</p>
             <p className='select-none'  onClick={()=>{navigate(40)}}>WORK</p>
             <p className='select-none'  onClick={()=>{navigate(100)}}>CONTACT</p>

@@ -38,7 +38,7 @@ const Page1 = ({ progress,size }) => {
     });
 
   return (
-    <div ref={divRef}  className=" page h-svh w-screen shrink-0 bg-leaves dark:bg-[#2d312a] overflow-hidden flex flex-col justify-between px-3 sm:px:10 pt-40 py-10"  style={{mask:'var(--headerMask)'}}>
+    <div ref={divRef}  className=" page h-svh w-screen shrink-0 bg-leaves dark:bg-[#2d312a] overflow-hidden flex flex-col justify-between px-3 sm:px:10 pt-40 "  style={{mask:'var(--headerMask)'}}>
      <div className="max-w-[800px] ml-auto mr-4 ">
       <AnimatedText wrapperClass="gap-x-1 h-auto  flex-wrap" wordsClass='flex h-fit w-fit overflow-visible' variant="scaleOut" className='text-2xl sm:text-3xl md:text-5xl  '>
           {text}
@@ -46,14 +46,11 @@ const Page1 = ({ progress,size }) => {
       </div>
         
       
-      <div className="relative flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-5 md:gap-8">
-        <motion.div initial={{ y:100,opacity:0 }} whileInView={{ y:0,opacity:1,transition:{duration:0.8,ease:'linear'}}} viewport={{once:true}} className="order-2 sm:order-1 logo text-9xl text-[8.2rem] sm:text-[200px] md:text-[350px] xl:text-[400px] italic font-bold ">
-          <span>u</span>
-          <span>d</span>
-          <span>a</span>
-          <span>y</span>
+      <div className="relative flex flex-col sm:flex-row sm:items-center gap-0 sm:gap-5 md:gap-8 ">
+        <motion.div initial={{ y:100,opacity:0 }} whileInView={{ y:0,opacity:1,transition:{duration:0.8,ease:'linear'}}} viewport={{once:true}} className="order-2 sm:order-1 logo ">
+          <span className="text-[90px] sm:text-[150px] md:text-[160px] xl:text-[300px] italic font-bold leading-[1.2]">virendra</span>
         </motion.div>
-        <motion.div initial={{ y:20,opacity:0 }} whileInView={{ y:0,opacity:1,transition:{duration:0.8,ease:'linear',delay:0.5}}} viewport={{once:true}}  className="order-1 h-fit rounded-sm text-sm sm:text-xl py-1 sm:py-2 font-semibold  px-2 sm:px-5   ">Local time { time}<br/>GMT(+5:30)</motion.div>
+        <motion.div initial={{ y:20,opacity:0 }} whileInView={{ y:0,opacity:1,transition:{duration:0.8,ease:'linear',delay:0.5}}} viewport={{once:true}}  className="order-1 h-fit rounded-sm text-sm sm:text-base md:text-xl py-1 sm:py-2 font-semibold  px-2 sm:px-5   ">Local time { time}<br/>GMT(+5:30)</motion.div>
       </div>
     </div>
   );

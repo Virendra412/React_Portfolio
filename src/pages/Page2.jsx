@@ -11,7 +11,7 @@ const Page2 = ({ progress, size }) => {
           <motion.div className={`bg-no-repeat bg-cover min-h-[500px] sm:min-w-[400px] `} style={{backgroundImage:`url(${aboutImage})`,backgroundPositionX:backgroundPos}}></motion.div>
           <div   className="about self-center px-3 sm:px-0">
                 <p className='font-semibold'>ABOUT</p>
-                <motion.p initial={{ y:30,opacity:0.5 }} whileInView={{ y:0,opacity:1,transition:{duration:0.8,ease:'linear'}}} viewport={{once:true}} className='text-xl sm:text-2xl leading-1'>Hello, I'm Uday Pratap, a dedicated Software Engineer with a passion for creating intuitive, engaging,
+                <motion.p initial={{ y:30,opacity:0.5 }} whileInView={{ y:0,opacity:1,transition:{duration:0.8,ease:'linear'}}} viewport={{once:true}} className='text-xl sm:text-2xl leading-1'>Hello, I'm Virendra Pratap, a dedicated Software Engineer with a passion for creating intuitive, engaging,
                     and high-performing websites. With expertise in front-end and back-end development, I transform
                     ideas into functional, beautiful digital solutions.</motion.p>
                 <div  className="flex gap-5 sm:gap-10 mt-10">

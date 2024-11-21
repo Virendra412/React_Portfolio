@@ -63,11 +63,11 @@ const Page3 = ({ progress, size }) => {
               <img loading="lazy" className="w-full h-full" src="https://res.cloudinary.com/dhoha33eh/image/upload/w_400,h_400/v1729596376/pratapUI_s00qsd.png" alt="" />
               <div className="absolute bg-black border border-white text-white font-semibold  bottom-5 left-5 px-8 py-2 rounded-3xl">Link</div>
           </div>
-          <div loading="lazy" className="imageBox w-full h-full shrink-0 overflow-hidden relative" onClick={()=>{window.location.href = 'https://puma-six.vercel.app/'}}>
+          <div loading="lazy" className="imageBox w-full h-full shrink-0 overflow-hidden relative" onClick={()=>{window.location.href = 'https://athletic.vercel.app/?vercelToolbarCode=bKIxaxdPKeN0gKx'}}>
               <img className="w-full h-full" src="https://res.cloudinary.com/dhoha33eh/image/upload/w_400,h_400/v1729596402/PUMA2_hhr6lb.png" alt="" />
               <div className="absolute bg-black border border-white text-white font-semibold bottom-5 left-5 px-8 py-2 rounded-3xl">Link</div>
           </div>
-          <div loading="lazy" className="imageBox w-full h-full shrink-0 overflow-hidden relative">
+          <div loading="lazy" className="imageBox w-full h-full shrink-0 overflow-hidden relative"  onClick={()=>{window.location.href = 'https://chat-app-frontend-gold-ten.vercel.app/'}}>
               <img className="w-full h-full" src="https://res.cloudinary.com/dhoha33eh/image/upload/w_400,h_400/v1729596401/chatapp_hgihha.png" alt="" />
               <div className="absolute bg-black border border-white text-white font-semibold bottom-5 left-5 px-8 py-2 rounded-3xl">Link</div>
           </div>
@@ -79,3 +79,5 @@ const Page3 = ({ progress, size }) => {
 };
 
 export default Page3;
+
+// https://chat-app-frontend-gold-ten.vercel.app/

@@ -13,23 +13,23 @@ const Page4 = () => {
                 </div>
                 <div className="grow">
                     <div >
-                        <a href="mailto:uday06122000@gmail.com" className="flex justify-between gap-5 text-1xl border-b border-text-light dark:border-text-dark">
+                        <a href="mailto:rishabhpratap412@gmail.com" className="flex justify-between gap-5 text-1xl border-b border-text-light dark:border-text-dark">
                             <p className='py-2 '>Enquiry</p>
-                        <p className='py-2'>uday06122000@gmail.com</p>
+                        <p className='py-2'>rishabhpratap412@gmail.com</p>
                         </a>
                         
                     </div>
                     <div >
-                        <a href="https://www.instagram.com/udaypratap9981/" className="flex justify-between gap-5 text-1xl border-b border-text-light dark:border-text-dark" >
+                        <a href="https://www.instagram.com/rishabh_412chauhan/" className="flex justify-between gap-5 text-1xl border-b border-text-light dark:border-text-dark" >
                             <p className='py-2 '>Instagram</p>
-                            <p className='py-2 '>udaypratap9981</p>
+                            <p className='py-2 '>rishabh_412chauhan</p>
                         </a>
                        
                     </div>
                     <div>
-                        <a href="https://github.com/udaypratap1112" className="flex justify-between gap-5 text-1xl border-b border-text-light dark:border-text-dark" >
+                        <a href="https://github.com/Virendra412" className="flex justify-between gap-5 text-1xl border-b border-text-light dark:border-text-dark" >
                             <p className='py-2 '>GitHub</p>
-                        <p className='py-2'>github.com/udaypratap1112</p>
+                        <p className='py-2'>github.com/Virendra412</p>
                         </a>
                         
                     </div>
@@ -37,12 +37,12 @@ const Page4 = () => {
             </div>
           </div>
 
-          <div className="footerLower flex flex-col sm:flex-row justify-between items-center sm:mb-5">
-                <div className='flex gap-10 grow sm:self-end sm:mb-10 '>
-                    <p><span>Designed by</span> <span >Uday Pratap</span></p>
+          <div className="footerLower flex flex-col sm:flex-row sm:gap-5 justify-between items-center sm:mb-5">
+                <div className='flex gap-10 grow sm:self-end sm:mb-10 sm:text-base  '>
+                    <p><span>Designed by</span> <span >Virendra Pratap</span></p>
                     <p>Portfolio&copy;2024</p>
                 </div>
-                <h2 className='navLogo italic font-bold text-[8.5rem] leading-[1] sm:text-[150px] md:text-[250px] mb-16 sm:mb-5'>uday</h2>
+                <h2 className='navLogo italic font-bold text-8xl leading-[1] sm:text-[100px] md:text-[150px] xl:text-[250px] mb-16 sm:mb-5'>virendra</h2>
             </div>
     </div>
   )
